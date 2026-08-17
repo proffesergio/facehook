@@ -1,7 +1,7 @@
 import React from 'react';
 import MobileNav from '@/components/frontend/mobile-nav';
 import DesktopSidebar from '@/components/frontend/desktop-sidebar';
-import { Search, MessageCircle, Bell, UserAdmin, Menu } from 'lucide-react';
+import { Search, MessageCircle, Bell, ShieldCheck as UserAdmin, Menu } from 'lucide-react';
 import Link from 'next/link';
 
 export default function FrontendLayout({ children }: { children: React.ReactNode }) {
